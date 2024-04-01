@@ -184,3 +184,12 @@ body{
         opacity: 1;
     }
 }
+@media (width <= 375px) {
+    .container {
+        width: 95%;
+    }
+    .search-box input::placeholder {
+        font-size: 18px;
+    }
+    
+}
